@@ -47,7 +47,7 @@ def init_db():
 # -----------------------------
 async def groq_generate(prompt: str, max_tokens: int = 250):
     payload = {
-        "model": "llama3-70b-8192",  # мощная, бесплатная, поддерживает русский
+        "model": "llama-3.3-70b-versatile",  # мощная, бесплатная, поддерживает русский
         "messages": [{"role": "user", "content": prompt}],
         "max_tokens": max_tokens,
         "temperature": 0.7
