@@ -13,8 +13,8 @@ from telegram.ext import (
 # -----------------------------
 # 🔑 НАСТРОЙКИ
 # -----------------------------
-TELEGRAM_BOT_TOKEN = os.environ["8592599701:AAEmGT1aoBuNtBGUAibMGtlemi5oeHv-BY0"]
-GROQ_API_KEY = os.environ["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"]  # ← из Groq
+TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
+GROQ_API_KEY = os.environ["GROQ_API_KEY"]  # ← из Groq
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 DB_NAME = "murasaki.db"
 
