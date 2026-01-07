@@ -57,7 +57,7 @@ for directory in [LOG_DIR, VOICE_DIR]:
         print(f"📁 Created: {directory}")
 
 # Админы
-ADMIN_IDS = [123456789]  # ← Замени на свой ID
+ADMIN_IDS = [1162907446]  # ← Замени на свой ID
 REQUIRED_CHANNEL = "@Murasaki_lab"
 
 # Retry настройки
